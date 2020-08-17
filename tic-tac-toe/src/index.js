@@ -105,7 +105,7 @@ class Game extends React.Component {
     }else{
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     }
-  }
+
 
     return (
       <div className="game">
